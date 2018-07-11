@@ -1,5 +1,5 @@
 # Basketball Scoreboard using an FPGA
----
+
 This project consists in a basketball scoreboard displayed to a VGA monitor and controlled by an infrared remote controller using an FPGA.
 
 ## Required Material
