@@ -1,0 +1,32 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Universidade/Projetos/1_ano/LSD/Scoreboard/LSDig-ProjFinal-P11-84745_84760/LSDig-ProjFinal-P11-84745_84760/LSDig-ProjFinal-P11-84745_84760/simulation/modelsim
+Eir_nec_decoder
+w1494111477
+DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+8D:/Universidade/Projetos/1_ano/LSD/Scoreboard/LSDig-ProjFinal-P11-84745_84760/LSDig-ProjFinal-P11-84745_84760/LSDig-ProjFinal-P11-84745_84760/IR_files/ir_nec_decoder.vhd
+FD:/Universidade/Projetos/1_ano/LSD/Scoreboard/LSDig-ProjFinal-P11-84745_84760/LSDig-ProjFinal-P11-84745_84760/LSDig-ProjFinal-P11-84745_84760/IR_files/ir_nec_decoder.vhd
+l0
+L41
+VX6N?n?CLDJ0Gh=Po]S_@N3
+!s100 FV9Xc]zU?TC@OZAOh:h:H0
+OV;C;10.4b;61
+33
+!s110 1497825424
+!i10b 1
+!s108 1497825424.000000
+!s90 -reportprogress|300|-2008|-work|work|D:/Universidade/Projetos/1_ano/LSD/Scoreboard/LSDig-ProjFinal-P11-84745_84760/LSDig-ProjFinal-P11-84745_84760/LSDig-ProjFinal-P11-84745_84760/IR_files/ir_nec_decoder.vhd|
+!s107 D:/Universidade/Projetos/1_ano/LSD/Scoreboard/LSDig-ProjFinal-P11-84745_84760/LSDig-ProjFinal-P11-84745_84760/LSDig-ProjFinal-P11-84745_84760/IR_files/ir_nec_decoder.vhd|
+!i113 1
+o-2008 -work work
+tExplicit 1

@@ -1,0 +1,28 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+use IEEE.NUMERIC_STD.all;
+
+entity CounterUpDown4 is
+
+	port(clk    : in  std_logic;
+		  start     : in  std_logic;
+		  count  : out std_logic_vector(6 downto 0)); -- Counts in  binary
+
+end CounterUpDown4;
+
+architecture Behavioral of CounterUpDown4 is
+
+	signal s_count : unsigned(6 downto 0) := "0000000"; -- Initialized as '100' because it decrements '1' at the beginning
+
+begin
+
+	process(clk)
+	begin
+		if(rising_edge(clk)) then
+			if(start = '1' and s_count <= 98) then -- Sets the upper limit '99'
+				s_count <= s_count + 1;
+			end if;
+		end if;
+	end process;
+	count <= std_logic_vector(s_count);
+end Behavioral;

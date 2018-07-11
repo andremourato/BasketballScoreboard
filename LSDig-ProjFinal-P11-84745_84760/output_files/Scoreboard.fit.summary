@@ -1,0 +1,16 @@
+Fitter Status : Successful - Fri Jun 16 10:50:29 2017
+Quartus Prime Version : 15.1.1 Build 189 12/02/2015 SJ Lite Edition
+Revision Name : Scoreboard
+Top-level Entity Name : Scoreboard
+Family : Cyclone IV E
+Device : EP4CE115F29C7
+Timing Models : Final
+Total logic elements : 4,408 / 114,480 ( 4 % )
+    Total combinational functions : 4,346 / 114,480 ( 4 % )
+    Dedicated logic registers : 437 / 114,480 ( < 1 % )
+Total registers : 437
+Total pins : 91 / 529 ( 17 % )
+Total virtual pins : 0
+Total memory bits : 20,480 / 3,981,312 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 532 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

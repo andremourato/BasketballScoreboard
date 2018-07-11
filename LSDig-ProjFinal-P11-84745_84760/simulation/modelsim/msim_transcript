@@ -1,0 +1,36 @@
+# do Scoreboard_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera_lite/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera_lite/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -2008 -work work {D:/Universidade/Projetos/1_ano/LSD/Scoreboard/LSDig-ProjFinal-P11-84745_84760/LSDig-ProjFinal-P11-84745_84760/LSDig-ProjFinal-P11-84745_84760/IR_files/ir_nec_decoder.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 22:37:04 on Jun 18,2017
+# vcom -reportprogress 300 -2008 -work work D:/Universidade/Projetos/1_ano/LSD/Scoreboard/LSDig-ProjFinal-P11-84745_84760/LSDig-ProjFinal-P11-84745_84760/LSDig-ProjFinal-P11-84745_84760/IR_files/ir_nec_decoder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ir_nec_decoder
+# -- Compiling architecture v1 of ir_nec_decoder
+# ** Error: (vcom-11) Could not find work.pulse_generator.
+# 
+# ** Error (suppressible): D:/Universidade/Projetos/1_ano/LSD/Scoreboard/LSDig-ProjFinal-P11-84745_84760/LSDig-ProjFinal-P11-84745_84760/LSDig-ProjFinal-P11-84745_84760/IR_files/ir_nec_decoder.vhd(65): (vcom-1195) Cannot find expanded name "work.pulse_generator".
+# 
+# ** Error: D:/Universidade/Projetos/1_ano/LSD/Scoreboard/LSDig-ProjFinal-P11-84745_84760/LSDig-ProjFinal-P11-84745_84760/LSDig-ProjFinal-P11-84745_84760/IR_files/ir_nec_decoder.vhd(65): Unknown expanded name.
+# ** Error: D:/Universidade/Projetos/1_ano/LSD/Scoreboard/LSDig-ProjFinal-P11-84745_84760/LSDig-ProjFinal-P11-84745_84760/LSDig-ProjFinal-P11-84745_84760/IR_files/ir_nec_decoder.vhd(144): VHDL Compiler exiting
+# End time: 22:37:04 on Jun 18,2017, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: C:/altera_lite/15.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./Scoreboard_run_msim_rtl_vhdl.do line 8
+# C:/altera_lite/15.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -2008 -work work {D:/Universidade/Projetos/1_ano/LSD/Scoreboard/LSDig-ProjFinal-P11-84745_84760/LSDig-ProjFinal-P11-84745_84760/LSDig-ProjFinal-P..."
